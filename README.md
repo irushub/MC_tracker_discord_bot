@@ -21,6 +21,10 @@ The **MC Tracker Discord Bot** is designed to provide real-time market data for 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/irushub/MC_tracker_discord_bot.git
-2.**Navigate to the Project Directory**:
+2. **Navigate to the Project Directory**:
    ```bash
     cd MC_tracker_discord_bot
+3. **Run the Bot**
+      ```bash
+    python discord_bot.py
+
