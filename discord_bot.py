@@ -6,7 +6,7 @@ intents.members = True  # To get member count
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 
-url = "https://gmgn.ai/defi/quotation/v1/tokens/sol/3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump"
+url = {api-key}
 response = requests.get(url)
 data = response.json()
 def format_value(value):
@@ -26,13 +26,13 @@ holder_count = gmgn_data['holder_count']
 
 
 
-CHANNEL_ID = 1255632614136479867 #members
+CHANNEL_ID =  #members
 
-channel_2 = 1255633417798811792 #marketcap
+channel_2 =  #marketcap
 
-channel_3= 1255633048427565195 #holders
+channel_3=  #holders
 
-GUILD_ID = 1255497284628648077
+GUILD_ID = #guild
 
 @bot.event
 async def on_ready():
